@@ -1,0 +1,52 @@
+====================================================
+COUNTFIRE PRO DESKTOP - INSTALLATION INSTRUCTIONS
+====================================================
+
+Thank you for downloading CountFire Pro Desktop!
+
+QUICK START GUIDE:
+==================
+
+1. INSTALL PYTHON (if not already installed):
+   - Download Python 3.11 or newer from https://python.org
+   - During installation, CHECK "Add Python to PATH"
+   - Click "Install Now"
+
+2. INSTALL DEPENDENCIES:
+   - Open Command Prompt (CMD) as Administrator
+   - Navigate to this folder: cd "path\to\CountFirePro_Package"
+   - Run: pip install -r requirements.txt
+
+3. RUN THE APPLICATION:
+   - Double-click "run_countfire_pro.bat"
+   - Or run: python desktop_app.py
+
+ALTERNATIVE: ONE-CLICK INSTALLER
+=================================
+Run "install_and_setup.bat" as Administrator for automatic setup.
+
+FEATURES:
+=========
+✓ 10x faster than web-based alternatives
+✓ 100% offline - complete privacy
+✓ Professional symbol detection
+✓ Interactive drawing on documents
+✓ Excel export capabilities
+✓ Native desktop performance
+
+TROUBLESHOOTING:
+================
+If you encounter issues:
+1. Ensure Python is in PATH
+2. Run as Administrator
+3. Check all dependencies installed
+4. See README_DESKTOP.md for details
+
+SUPPORT:
+========
+For technical support, please refer to the documentation
+or contact our support team.
+
+====================================================
+© 2025 CountFire Pro - Professional Symbol Detection
+====================================================
