@@ -18,18 +18,21 @@ CountFire Pro Desktop is a powerful, fast, and professional symbol detection app
 ## 📋 Features
 
 ### Professional Interface
+
 - Modern, intuitive desktop GUI built with CustomTkinter
 - Native file dialog integration
 - Multi-window support with professional toolbars
 - Real-time status updates and progress indicators
 
 ### Advanced Symbol Detection
+
 - Computer vision-based automatic symbol recognition
 - Configurable detection parameters (area, shape, solidity)
 - Section-based analysis for precise targeting
 - Multiple symbol types and categories
 
 ### Interactive Drawing Tools
+
 - Click-and-drag rectangle drawing on documents
 - Real-time visual feedback
 - Zoom in/out capabilities with mouse wheel
@@ -37,18 +40,21 @@ CountFire Pro Desktop is a powerful, fast, and professional symbol detection app
 - Professional annotation tools
 
 ### Document Processing
+
 - PDF support (automatic page extraction)
 - Image formats: PNG, JPG, JPEG
 - High-resolution processing
 - Multi-page document handling
 
 ### Professional Reporting
+
 - Excel export with detailed symbol data
 - PDF reports with visual annotations
 - Summary statistics and analysis
 - Professional formatting and branding
 
 ### Performance & Reliability
+
 - Native desktop performance (no browser overhead)
 - Optimized memory usage
 - Crash recovery and auto-save
@@ -57,18 +63,21 @@ CountFire Pro Desktop is a powerful, fast, and professional symbol detection app
 ## 🔧 Installation Options
 
 ### Option 1: Ready-to-Run Executable (Recommended)
+
 1. Download the CountFirePro.exe file
 2. Run the installer (install.bat) as Administrator
 3. Launch from Desktop shortcut
 4. No Python or dependencies required!
 
 ### Option 2: Portable Mode
+
 1. Download CountFirePro.exe
 2. Run directly from any folder
 3. No installation required
 4. Perfect for USB/portable use
 
 ### Option 3: Build from Source (Developers)
+
 ```bash
 # Clone the repository
 git clone [https://www.countfire.com/]
@@ -83,12 +92,14 @@ python build_desktop_app.py
 ## 🖥️ System Requirements
 
 ### Minimum Requirements
+
 - Windows 10 or later
 - 4GB RAM
 - 500MB disk space
 - Graphics card with OpenGL support
 
 ### Recommended Requirements  
+
 - Windows 11
 - 8GB+ RAM
 - 1GB disk space
@@ -97,27 +108,32 @@ python build_desktop_app.py
 ## 📖 How to Use
 
 ### 1. Upload Document
+
 - Click "📁 Upload Document" button
 - Select your PDF or image file
 - Document loads automatically in the main canvas
 
 ### 2. Define Analysis Sections
+
 - Click and drag to draw rectangles on areas to analyze
 - Name each section using the sidebar input
 - Click "➕ Add Section" to save each defined area
 - Use Clear or Undo to modify drawings
 
 ### 3. Configure Detection
+
 - Adjust Min/Max Area sliders for symbol size filtering
 - Set detection sensitivity parameters
 - Preview settings with real-time feedback
 
 ### 4. Detect Symbols
+
 - Click "🎯 Detect Symbols" to analyze all sections
 - View real-time progress and results
 - Review detailed statistics per section
 
 ### 5. Export Results
+
 - Click "📊 Export to Excel" for detailed spreadsheets
 - Click "📄 Export to PDF" for professional reports
 - Results include symbol counts, locations, and analysis data
@@ -125,21 +141,25 @@ python build_desktop_app.py
 ## 🛠️ Building & Distribution
 
 ### For End Users
+
 The application comes as a ready-to-run executable with simple installation.
 
 ### For Developers
 
 #### Local Development
+
 ```bash
 python desktop_app.py
 ```
 
 #### Create Executable
+
 ```bash
 python build_desktop_app.py
 ```
 
 #### Advanced Build Options
+
 ```bash
 pyinstaller --onefile --windowed --name "CountFirePro" \
     --add-data "document_processor.py:." \
@@ -192,12 +212,14 @@ countfire-pro/
 ## 🚀 Performance Benefits
 
 ### Speed Comparisons
+
 - **Document Loading**: 10x faster than web browsers
 - **Symbol Detection**: 5x faster processing
 - **Export Generation**: Instant vs. server processing delays
 - **Memory Usage**: 50% less RAM than browser-based solutions
 
 ### Professional Features
+
 - No file upload size limits
 - Unlimited processing time
 - Full offline capability
@@ -206,12 +228,14 @@ countfire-pro/
 ## 🛡️ Security & Privacy
 
 ### Data Protection
+
 - 100% local processing - files never leave your computer
 - No internet connection required for operation
 - No data collection or tracking
 - Complete privacy and confidentiality
 
 ### File Security
+
 - Direct file access (no uploads)
 - Local temp file management
 - Secure processing pipeline
@@ -220,11 +244,13 @@ countfire-pro/
 ## 📞 Support & Updates
 
 ### Getting Help
+
 - Check the included README.txt file
 - Review build instructions for developers
 - Contact support for technical issues
 
 ### Updates
+
 - Check for new releases regularly
 - Download updated executables
 - Backward compatibility maintained
