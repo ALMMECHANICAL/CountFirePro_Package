@@ -71,7 +71,7 @@ CountFire Pro Desktop is a powerful, fast, and professional symbol detection app
 ### Option 3: Build from Source (Developers)
 ```bash
 # Clone the repository
-git clone [repository-url]
+git clone [https://www.countfire.com/]
 cd countfire-pro
 
 # Build executable
