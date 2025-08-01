@@ -170,7 +170,7 @@ pyinstaller --onefile --windowed --name "CountFirePro" \
 
 ## 📁 Project Structure
 
-```
+```bash
 countfire-pro/
 ├── desktop_app.py              # Main desktop application
 ├── document_processor.py       # PDF/image processing
@@ -184,6 +184,21 @@ countfire-pro/
     ├── install.bat             # Installer script
     └── README.txt              # User documentation
 ```
+
+countfire-pro/
+├── desktop_app.py              # Main desktop application
+├── document_processor.py       # PDF/image processing
+├── section_manager.py          # Section coordinate management  
+├── symbol_detector.py          # Computer vision detection
+├── build_desktop_app.py        # Build script for executable
+├── build_instructions.md       # Detailed build guide
+├── simple_test.py              # Component testing
+└── dist/                       # Built executables
+    ├── CountFirePro.exe        # Main executable
+    ├── install.bat             # Installer script
+    └── README.txt              # User documentation
+
+`text``
 
 ## 🔍 Technical Architecture
 
